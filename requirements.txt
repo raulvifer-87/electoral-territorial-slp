@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+geopandas
+folium
+plotly
+openpyxl
+jupyter
