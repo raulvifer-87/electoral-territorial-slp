@@ -1,0 +1,16 @@
+**pycache**/
+*.pyc
+.ipynb_checkpoints/
+
+data/raw/
+data/processed/
+*.csv
+*.xlsx
+*.zip
+*.geojson
+*.shp
+*.dbf
+*.shx
+*.prj
+
+.DS_Store
