@@ -1,42 +1,58 @@
-# Inventario de datos
-
-Este documento registra las fuentes disponibles, su estructura,
-granularidad, calidad y posibilidades de comparación.
-
 ## Base 1
 
 ### Nombre del archivo
-Pendiente
+slp_gubernatura_2015_2021_comparativo_distrital.csv
 
-### Fuente
-CEEPAC
+### Tipo de archivo
+Base procesada y comparativa.
+
+### Fuente original
+Resultados electorales de gubernatura de San Luis Potosí.
 
 ### Elección
-Pendiente
+Gubernatura de San Luis Potosí.
 
-### Año
-Pendiente
+### Años
+2015 y 2021.
 
 ### ¿Qué representa cada fila?
-Pendiente de revisar
+Un distrito electoral local.
 
 ### Nivel territorial
 - [ ] Casilla
 - [ ] Sección
-- [ ] Distrito
+- [x] Distrito
 - [ ] Municipio
 
+### Dimensiones
+15 filas y 27 columnas.
+
 ### Variables territoriales disponibles
-Pendiente de revisar
+- Número de distrito local.
+- Número romano del distrito.
+- Cabecera distrital de 2015.
+- Cabecera distrital de 2021.
 
 ### Variables electorales disponibles
-Pendiente de revisar
-
-### Problemas detectados
-Pendiente de revisar
+- Ganador de 2015 y 2021.
+- Votos del ganador.
+- Votos del segundo lugar.
+- Margen de victoria en votos.
+- Margen de victoria porcentual.
+- Votación por candidaturas en 2021.
+- Votación emitida.
+- Votos nulos.
+- Bloque ganador.
+- Cambio de ganador y cambio de bloque.
 
 ### Comparaciones posibles
-Pendiente de revisar
+- Cambios en el bloque ganador entre 2015 y 2021.
+- Variaciones en la competitividad distrital.
+- Distritos que pasaron de elecciones cerradas a victorias amplias.
+- Distribución territorial de los bloques políticos.
 
 ### Limitaciones
-Pendiente de revisar
+- Se debe verificar que los distritos de 2015 y 2021 sean
+  geográficamente comparables.
+- La base es procesada y no sustituye los archivos electorales originales.
+- Es necesario revisar la definición exacta de votación emitida.
